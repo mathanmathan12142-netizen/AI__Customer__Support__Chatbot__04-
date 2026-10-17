@@ -1,0 +1,6 @@
+{
+  "name": "OmniSupport AI - Smart Customer Support Platform",
+  "description": "Enterprise multilingual AI customer support system powered by Google Gemini with knowledge-base grounding, ticket escalation, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

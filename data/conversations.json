@@ -1,0 +1,194 @@
+[
+  {
+    "id": "session-demo-01",
+    "title": "Order Tracking & Delivery Inquiry",
+    "language": "en",
+    "createdAt": "2026-10-17T07:51:46.966Z",
+    "updatedAt": "2026-10-17T09:51:46.966Z",
+    "status": "active",
+    "messages": [
+      {
+        "id": "msg-001",
+        "role": "assistant",
+        "content": "Hello! Welcome to OmniSupport. 👋 How can I help you today? You can ask about your orders, return policies, payment status, or switch to Tamil (தமிழ்).",
+        "timestamp": "2026-10-17T07:51:46.966Z",
+        "language": "en",
+        "suggestedActions": [
+          {
+            "label": "📦 Track Order",
+            "action": "track_order",
+            "payload": "Track my order"
+          },
+          {
+            "label": "🔄 Refund Policy",
+            "action": "refund_policy",
+            "payload": "What is your refund policy?"
+          },
+          {
+            "label": "💳 Payment Issues",
+            "action": "payment_issue",
+            "payload": "My payment failed"
+          }
+        ]
+      },
+      {
+        "id": "msg-002",
+        "role": "user",
+        "content": "Can you track order #ORD-10294 for me?",
+        "timestamp": "2026-10-17T08:51:46.966Z",
+        "language": "en"
+      },
+      {
+        "id": "msg-003",
+        "role": "assistant",
+        "content": "I located your order **#ORD-10294**! Here are the real-time details:\n\n• **Customer:** Alex Morgan\n• **Items:** Wireless Noise-Canceling Headphones, USB-C Braided Cable 2m\n• **Status:** 🚚 **Out for Delivery**\n• **Carrier:** FedEx Express (Tracking #FX-78291044)\n• **Estimated Arrival:** Today by 6:00 PM\n• **Destination:** Seattle, WA, USA\n\nYour courier is on schedule. Let me know if you need to leave delivery instructions!",
+        "timestamp": "2026-10-17T08:51:46.966Z",
+        "language": "en",
+        "groundedKBIds": [
+          "kb-001"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "session-1792234312001-ux69j",
+    "title": "What is your refund policy?",
+    "language": "en",
+    "createdAt": "2026-10-17T10:51:52.001Z",
+    "updatedAt": "2026-10-17T10:51:56.557Z",
+    "status": "active",
+    "messages": [
+      {
+        "id": "msg-1792234312001-01",
+        "role": "assistant",
+        "content": "Hello! Welcome to OmniSupport. 👋 How can I assist you today? You can ask about order tracking, return policies, payment status, or account help.",
+        "timestamp": "2026-10-17T10:51:52.001Z",
+        "language": "en",
+        "suggestedActions": [
+          {
+            "label": "📦 Track Order",
+            "action": "track_order",
+            "payload": "Track my order"
+          },
+          {
+            "label": "🔄 Refund Policy",
+            "action": "refund_policy",
+            "payload": "What is your refund policy?"
+          },
+          {
+            "label": "💳 Payment Issues",
+            "action": "payment_issue",
+            "payload": "My payment failed"
+          },
+          {
+            "label": "🔐 Account Help",
+            "action": "account_help",
+            "payload": "How to reset my password?"
+          },
+          {
+            "label": "🎧 Human Support",
+            "action": "contact_support",
+            "payload": "I want to talk to human support"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "What is your refund policy?",
+        "language": "en",
+        "id": "msg-1792234312001-e3rz",
+        "timestamp": "2026-10-17T10:51:52.001Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is our refund and return policy:\n\n* **Return Window:** We offer a **30-day hassle-free return window** for all unused items kept in their original packaging.\n* **Processing Time:** Once our inspection team receives your returned package, your refund will be processed within **3 to 5 business days**.\n* **Refund Method:** The amount will be credited back to your original payment method (Credit/Debit Card, UPI, Net Banking, or Store Credit).\n\nIf you would like to initiate a return or have questions about a specific order, please feel free to share your Order ID (e.g., #ORD-10294)!",
+        "language": "en",
+        "groundedKBIds": [
+          "kb-003"
+        ],
+        "suggestedActions": [
+          {
+            "label": "🔄 Refund Policy",
+            "action": "refund_policy"
+          },
+          {
+            "label": "🎧 Speak to Human",
+            "action": "open_ticket"
+          }
+        ],
+        "id": "msg-1792234316557-2cj5",
+        "timestamp": "2026-10-17T10:51:56.557Z"
+      }
+    ]
+  },
+  {
+    "id": "session-1792234322534-2xed5",
+    "title": "பணம் திரும்பப் பெறுதல் கொள்கை என்ன?",
+    "language": "ta",
+    "createdAt": "2026-10-17T10:52:02.534Z",
+    "updatedAt": "2026-10-17T10:52:09.496Z",
+    "status": "active",
+    "messages": [
+      {
+        "id": "msg-1792234322534-01",
+        "role": "assistant",
+        "content": "வணக்கம்! OmniSupport வாடிக்கையாளர் சேவைக்கு வரவேற்கிறோம். 👋 உங்களுக்கு இன்று நான் எவ்வாறு உதவ முடியும்? ஆர்டர் கண்காணிப்பு, ரீஃபண்ட், கட்டண சிக்கல்கள் குறித்து கேட்கலாம்.",
+        "timestamp": "2026-10-17T10:52:02.534Z",
+        "language": "ta",
+        "suggestedActions": [
+          {
+            "label": "📦 ஆர்டர் கண்காணிப்பு",
+            "action": "track_order",
+            "payload": "எனது ஆர்டரைக் கண்காணிக்கவும்"
+          },
+          {
+            "label": "🔄 ரீஃபண்ட் கொள்கை",
+            "action": "refund_policy",
+            "payload": "பணம் திரும்பப் பெறுதல் கொள்கை என்ன?"
+          },
+          {
+            "label": "💳 கட்டணச் சிக்கல்கள்",
+            "action": "payment_issue",
+            "payload": "கட்டணப் பரிவர்த்தனை தோல்வியடைந்தது"
+          },
+          {
+            "label": "🎧 மனித ஆதரவு",
+            "action": "contact_support",
+            "payload": "மனித அதிகாரியை தொடர்பு கொள்ள வேண்டும்"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "பணம் திரும்பப் பெறுதல் கொள்கை என்ன?",
+        "language": "ta",
+        "id": "msg-1792234322534-0ruc",
+        "timestamp": "2026-10-17T10:52:02.534Z"
+      },
+      {
+        "role": "assistant",
+        "content": "எங்கள் **பொருட்கள் திரும்புதல் மற்றும் பணத்தைத் திரும்பப் பெறுதல் கொள்கை (Return & Refund Policy)** விவரங்கள் பின்வருமாறு:\n\n* **30 நாள் ரிட்டர்ன் வசதி:** பயன்படுத்தப்படாத மற்றும் அசல் பேக்கேஜிங்கில் உள்ள அனைத்துப் பொருட்களுக்கும் **30 நாட்கள்** எளிய ரிட்டர்ன் வசதியை வழங்குகிறோம்.\n* **பரிசீலனை & செயலாக்கம்:** நீங்கள் திருப்பியளித்த பொருள் எங்களை வந்து சேர்ந்ததும், எங்கள் ஆய்வுக் குழு சரிபார்த்து **3 முதல் 5 வணிக நாட்களுக்குள்** பணம் திரும்பச் செலுத்தும் செயல்முறையைத் தொடங்கும்.\n* **கட்டணம் திரும்பப் பெறும் முறைகள்:**\n  * **UPI:** பொதுவாக உடனடியாக அல்லது 24 மணி நேரத்திற்குள் உங்கள் கணக்கில் வரவு வைக்கப்படும்.\n  * **கார்டுகள் (Credit/Debit) & நெட் பேங்கிங்:** பணம் வரவு வைக்கப்பட **3 முதல் 5 வணிக நாட்கள்** வரை ஆகும்.\n\nஉங்களுக்கு ஏதேனும் குறிப்பிட்ட ஆர்டருக்கு ரீஃபண்ட் பெற உதவ வேண்டுமா? உங்கள் ஆர்டர் ஐடியைப் பகிர்ந்தால் நான் உதவ முடியும்!",
+        "language": "ta",
+        "groundedKBIds": [
+          "kb-001",
+          "kb-002",
+          "kb-003",
+          "kb-004",
+          "kb-005"
+        ],
+        "suggestedActions": [
+          {
+            "label": "🔄 ரீஃபண்ட் கொள்கை",
+            "action": "refund_policy"
+          },
+          {
+            "label": "🎧 மனித ஆதரவு",
+            "action": "open_ticket"
+          }
+        ],
+        "id": "msg-1792234329496-upbx",
+        "timestamp": "2026-10-17T10:52:09.496Z"
+      }
+    ]
+  }
+]
